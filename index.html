@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harrison Weston | Portfolio</title>
+  <!-- Link to external CSS file -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Harrison C Weston</a>
+      <button class="mobile-menu-btn">
+        <span class="icon">menu</span>
+      </button>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1 class="hero-title">Hi, I'm <span style="color: var(--accent);">Harrison Weston</span></h1>
+        <h2 class="hero-subtitle">Computer Science Student</h2>
+        <h2 class="hero-subtitle">Future Full-Stack Developer</h2>
+        <p class="hero-description">
+          I'm a passionate developer specializing in building exceptional digital experiences.
+          Currently, I'm a student at Marist University studying computer science with a concentration in software development.
+        </p>
+        <a href="#contact" class="cta-btn">Get In Touch</a>
+      </div>
+      <div class="hero-image">
+        <img src="/Headshot.jpg" alt="Profile Picture" class="profile-pic">
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <div class="container">
+      <div class="section-heading">
+        <h2 class="section-title">Resume</h2>
+      </div>
+      <div class="resume-container">
+        <div class="resume-column">
+          <h3>Education</h3>
+          <div class="resume-item">
+            <h4 class="resume-item-title">Bachelor of Arts in Computer Science</h4>
+            <h5 class="resume-item-subtitle">Marist University</h5>
+            <p class="resume-item-date">2020 - 2025</p>
+            <p class="resume-item-description">
+              GPA: 3.35 / 4.0, Expected Graduation: December 2025
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4 class="resume-item-title">Relevant Classwork</h4>
+            <h5 class="resume-item-subtitle">Marist University</h5>
+            <p class="resume-item-date">2020 - 2025</p>
+            <p class="resume-item-description">
+              • Software Engineering in Java<br>
+              • Algorithms and Data Structures<br>
+              • Discrete Mathematics<br>
+              • Database Management<br>
+              • Software Development in Python<br>
+              • Calculus 1<br>
+              • Computer Architecture<br>
+              • Web Development<br>
+              • Operating Systems
+            </p>
+          </div>
+        </div>
+        <div class="resume-column">
+          <h3>Experience</h3>
+          <div class="resume-item">
+            <h4 class="resume-item-title">Software Engineering Intern</h4>
+            <h5 class="resume-item-subtitle">FlexSpring, Quebec City, Canada</h5>
+            <p class="resume-item-date">May 2024 - August 2024</p>
+            <p class="resume-item-description">
+              • Developed and maintained RESTful APIs, enhancing system scalability and performance.<br>
+              • Increased code coverage and ensured software reliability by conducting unit tests using JUnit.<br>
+              • Used Git and CI/CD pipelines to ensure seamless integration and deployment of new features.<br>
+              • Optimized existing codebases by refactoring critical components, reducing technical debt by 15%.<br>
+              • Collaborated in Agile sprints to improve code quality and resolve issues across the team.<br>
+              • Delivered detailed reports on code improvements and test results, aiding stakeholders in decision-making.
+            </p>
+          </div>
+          <div class="resume-item">
+            <h4 class="resume-item-title">International Internship</h4>
+            <h5 class="resume-item-subtitle">Orbis International, Dalkey, Ireland</h5>
+            <p class="resume-item-date">January 2024 - April 2024</p>
+            <p class="resume-item-description">
+              • Managed large datasets in Excel to improve efficiency and support data-driven decisions.<br>
+              • Maintained the organization’s WordPress website, ensuring accuracy and responsiveness.<br>
+              • Developed social media strategies, boosting Instagram engagement with targeted campaigns.<br>
+              • Created content calendars aligned with organizational goals in collaboration with teams.<br>
+              • Performed A/B testing to enhance engagement and optimize future social media posts.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <div class="section-heading">
+        <h2 class="section-title">Projects</h2>
+      </div>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img src="/Melodi.png" alt="Project 1" class="project-image">
+          <div class="project-content">
+            <h3 class="project-title">Melodi – Music Sharing Platform</h3>
+            <div class="project-tech">
+              <span class="tech-tag">React</span>
+              <span class="tech-tag">Next.js</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">Spotify API</span>
+              <span class="tech-tag">Tailwind CSS</span>
+            </div>
+            <p class="project-description">
+              • Developed a full-stack music-sharing platform with Spotify’s API for authentication and playlists.<br>
+              • Built scalable RESTful APIs for secure data handling and efficient retrieval.<br>
+              • Created a responsive front-end with React and Tailwind CSS to enhance user experience.<br>
+              • Optimized API calls and implemented efficient state management for better performance.<br>
+              • Deployed the app with Next.js for server-side rendering and improved speed.
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/zsloan1499/Capping" class="project-link" title="GitHub Repository">
+                <span class="icon">code</span>
+              </a>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img src="/6502.png" alt="Project 2" class="project-image">
+          <div class="project-content">
+            <h3 class="project-title">6502 Virtual Machine Emulator</h3>
+            <div class="project-tech">
+              <span class="tech-tag">Java</span>
+              <span class="tech-tag">TypeScript</span>
+            </div>
+            <p class="project-description">
+              • Built a 6502 processor emulator in TypeScript, simulating core components like CPU, MMU, and RAM.<br>
+              • Developed a 5-step instruction pipeline to execute a subset of the 6502 instruction set.<br>
+              • Applied low-level programming concepts, including bitwise operations and memory addressing.<br>
+              <br>
+              <br>
+              <br>
+              <br>
+            </p>
+            <div class="project-links">
+              <a href="https://github.com/Hweston12/422-tsiraM" class="project-link" title="GitHub Repository">
+                <span class="icon">code</span>
+              </a>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+            <img src="Website2.png" alt="This Website" class="project-image">
+            <div class="project-content">
+              <h3 class="project-title">This Website</h3>
+              <div class="project-tech">
+                <span class="tech-tag">HTML</span>
+                <span class="tech-tag">CSS</span>
+                <span class="tech-tag">JavaScript</span>
+                <span class="tech-tag">Google Fonts</span>
+                <span class="tech-tag">Material Icons</span>
+              </div>
+              <p class="project-description">
+                Developed as a personal side project, This Website served as a platform to refine my full-stack web development skills. By creating a responsive, dynamic portfolio from scratch, I was able to utilize my front-end experience with advanced CSS techniques and JavaScript interactions, while also using my understanding of back-end principles such as performance optimization and modular code architecture. This project was a fun way to show my ability to craft professional, engaging webpages.
+              </p>
+              <div class="project-links">
+                <a href="#" class="project-link" title="GitHub Repository">
+                  <span class="icon">code</span>
+                </a>
+                </a>
+              </div>
+            </div>
+          </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-heading">
+        <h2 class="section-title">Contact</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <div class="contact-details">
+            <div class="contact-item">
+              <span class="contact-icon icon">email</span>
+              <span>Harrison.weston1@marist.edu</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon icon">call</span>
+              <span>+1 (978) 325-2555</span>
+            </div>
+            <div class="contact-item">
+              <span class="contact-icon icon">location_on</span>
+              <span>Poughkeepsie, NY</span>
+            </div>
+          </div>
+          <h3>Follow Me</h3>
+          <div class="social-links">
+            <a href="https://github.com/Hweston12" class="social-link" title="GitHub">
+              <span class="icon">code</span>
+            </a>
+            <a href="https://www.linkedin.com/in/harrison-weston-26813334b/" class="social-link" title="LinkedIn">
+              <span class="icon">business_center</span>
+            </a>
+            <a href="https://app.joinhandshake.com/profiles/fbzftg" class="social-link" title="HandShake">
+              <span class="icon">alternate_email</span>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" id="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" id="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-control" placeholder="Yes I really do check these! 
+However my email is the best way to get in touch 😊" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Harrison Weston. All Rights Reserved.</p>
+      <p>Designed &amp; Built with ❤️</p>
+    </div>
+  </footer>
+
+  <!-- Link to external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
